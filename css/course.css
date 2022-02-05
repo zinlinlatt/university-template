@@ -1,0 +1,127 @@
+.course{
+    display: flex;
+    height: 600px;
+    background-color: #f2f3f4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.course__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.course__header{
+    padding: 2rem;
+    margin: 2rem;
+}
+.course__header-title{
+    font-size: 2rem;
+    font-weight: 200;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.course__container-center{
+    display: flex;
+    width: 1140px;
+    justify-content: center;
+    gap: 1.8rem;
+}
+.course__container-center article{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    -webkit-box-shadow: 5px 5px 7px -9px rgba(0,0,0,0.78); 
+    box-shadow: 5px 5px 7px -9px rgba(0,0,0,0.78);
+    border: 1px solid rgba(231, 223, 223, 0.78);
+    overflow: hidden;
+    align-items: center;
+    transition: all 5s ease;
+
+}
+
+
+.course__container-center article img{
+    width: 100%;
+    height: 80%;
+overflow: hidden;
+}
+.course__container-center article:hover{
+    -webkit-box-shadow: 5px 5px 29px -9px rgba(0,0,0,0.78); 
+    box-shadow: 5px 5px 29px -9px rgba(0,0,0,0.78);
+    margin-bottom: 1rem;
+    background-color: #1167b1;
+    -webkit-transition: color 2s;
+    transition: color 2s;
+    color: white;
+    transform: scale(1.5);
+}
+.course__container-center article p{
+font-weight: 300;
+font-size: 0.85rem;
+word-spacing: 0.12rem;
+padding: 0.6rem 0;
+color: rgba(218, 202, 202, );
+margin-bottom: 1rem;
+text-align: center;
+line-height: 1rem;
+}
+.course__container-center article h4{
+    font-weight: 300;
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    color: rgba(218, 202, 202, );
+}
+
+
+
+.circle{
+    width:2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    border: 2px solid rgb(173, 164, 164);
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.circle i{
+    color: rgb(173, 164, 164);
+    font-size: 1rem;
+}
+.course__footer-circle {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: flex;
+    border: 2px solid blue;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    
+}
+
+.course__footer-circle i{
+    color: blue;
+    font-size: 0.6rem;
+    
+    
+}
+.course__footer p{
+    color: blue;
+    margin-right: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.course__footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+

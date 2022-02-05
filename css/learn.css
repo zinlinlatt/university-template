@@ -1,0 +1,81 @@
+.learn{
+  display: flex;
+  height: 540px;
+  background-color: #191919;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.learn-text{
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 0;
+ display: flex;
+ flex-direction: column;
+ justify-content: center; 
+ align-items: center;
+}
+.learn p{
+  font-weight: 300;
+font-size: 0.85rem;
+padding: 0.6rem 0;
+color: rgb(255, 251, 251);
+margin-bottom: 1rem;
+text-align: center;
+
+}
+
+
+.learn h2{
+  font-weight: 300;
+  padding: 0.6rem 0;
+  font-size: 1.4rem;
+  color: rgb(255, 254, 254);
+  text-align: center;
+}
+.link{
+  display: flex;
+  align-items: center;
+}
+.link p{
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.85rem;
+  word-spacing: 0.15rem;
+  padding-top: 1rem;
+  color: rgb(255, 251, 251);
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.learn__link-1 a:link, a:visited {
+    background-color: #187bcd;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2rem;
+  }
+  
+  .learn__link-1 a:hover, a:active {
+    background-color: #187bcd;
+  }
+  .learn__link-2 a:link, a:visited {
+    background-color: #191919;
+    color: white;
+    border: 1px solid #187bcd;
+    padding: 14px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2rem;
+  
+  }
+  
+  .learn__link-2 a:hover, a:active {
+    background-color: black;
+    color: white;
+  }
+  

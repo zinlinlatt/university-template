@@ -1,0 +1,55 @@
+
+.nav{
+display: flex;
+justify-content: space-between;
+color: #fff;
+width: 74%;
+margin: auto;
+padding: 0.4rem 0;
+}
+.nav__header{
+    display: block;
+    }
+
+.nav__header-logo{
+    width: 55px;
+    height: 40px;
+    display: inline-block;
+}
+
+.nav__header-title{
+    display:inline-block;
+    font-family: 'mont';
+    margin-top: 0.4rem;
+}
+
+.nav__container{
+display: flex;
+align-items: center;
+
+}
+
+
+.nav__container-item{
+margin: 0 0.9rem;
+font-size: 10px;
+}
+.nav__container-item:hover{
+    color: #0096ff;
+    cursor: pointer;
+
+}
+.nav__search{
+    display: block;
+    text-align: center;
+    margin: auto 0;
+}
+.nav__search i {
+    font-size: 12px;
+    transition: color 3s ease;
+}
+.nav__search i:hover{
+    color: #0096ff;
+    cursor: pointer;
+    font-weight: 500;
+}

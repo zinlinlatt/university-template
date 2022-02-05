@@ -1,0 +1,109 @@
+.teacher{
+    display: flex;
+    height: 540px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teacher__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.teacher__header{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teacher__header h2 {
+    font-size: 2.6rem;
+    font-weight: 200;
+    display: flex;
+    text-align: center;
+    margin-bottom: 0.6rem;
+    color: #191919;
+margin-bottom: 1rem;
+
+}
+.teacher__header p{
+    font-size: 0.90rem;
+    color: #333333;
+    font-weight: 300;
+    line-height: 1rem;
+    word-spacing: 0.2rem;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+.teacher__container-box{
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+
+
+}
+
+
+
+
+.teacher__container-box article{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    -webkit-box-shadow: 5px 5px 7px -9px rgba(0,0,0,0.78); 
+    box-shadow: 5px 5px 7px -9px rgba(0,0,0,0.78);
+    border: 0.1px solid rgba(238, 235, 235, 0.78);
+    overflow: hidden;
+    align-items: center;
+    transition: all 5s ease;
+}
+.teacher__container-box article:hover {
+    -webkit-box-shadow: 5px 5px 29px -9px rgba(0,0,0,0.78); 
+    box-shadow: 5px 5px 29px -9px rgba(0,0,0,0.78);
+    margin-bottom: 1rem;
+    background-color: #1167b1;
+    -webkit-transition: color 2s;
+    transition: color 2s;
+    color: white;
+    transform: scale(1.5);
+}
+.teacher__container-box article img{
+    width: 160px;
+    height: 160px;
+overflow: hidden;
+border-radius: 60rem;
+margin-top: 2.5rem;
+margin-bottom: 1.5rem;
+display: center;
+
+}
+.teacher__container-box article:hover p{
+    color: white;
+}
+.teacher__container-box article:hover h4{
+    color: white;
+}
+
+.teacher__container-box article p{
+font-weight: 300;
+font-size: 0.8rem;
+color: rgb(51, 92, 180);
+margin-bottom: 0.4rem;
+text-align: center;
+
+}
+.teacher__container-box article h4{
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: rgb(22, 10, 10);
+}
